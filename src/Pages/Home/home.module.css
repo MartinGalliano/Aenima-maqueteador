@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    background-color: rgb(54, 53, 53);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.subcontainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.imgLogo{
+    width: 50%;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.proto{
+ color: aliceblue;
+ margin: 50px;
+ font-family: 'Montserrat', sans-serif;
+}
+.draw_border {
+    box-shadow: inset 0 0 0 4px #faeb62;
+    color: #fffffa;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+    align-items: center;
+    margin-left: 1rem;
+   
+}
+   
+.draw_border::before, .draw_border::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+   }
+   
+.draw_border::before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+   }
+   
+.draw_border::after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+   }
+   
+.draw_border:hover {
+    color: #faeb62;
+   }
+   
+.draw_border:hover::before, .draw_border:hover::after {
+    border-color: #ffffff;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+   }
+   
+.draw_border:hover::before {
+    transition-delay: 0s, 0s, 0.25s;
+   }
+   
+.draw_border:hover::after {
+    transition-delay: 0s, 0.25s, 0s;
+   }
+   
+.btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 700 17px "Roboto Slab", sans-serif;
+    padding: 1em 2em;
+    letter-spacing: 0.05rem;
+   }
+   
+.btn:focus {
+    outline: 2px dotted #55d7dc;
+   }
+   

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+
+.container{
+    display: block;
+    background-image: url('../../Assets/img/Viajes_Hero.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.sub_container_left{
+    width: 36%;
+    margin-left: 11.5rem;
+    position: absolute;
+    margin-top: 15rem;
+}
+.iconT{
+   margin-left: 5%;
+   margin-top: 21%;
+    
+    float: left;
+    display: flex;
+    
+    width: 4vh;
+}
+
+
+.title{
+    margin-top: 20%;
+    margin-left: 15%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #fff;
+   
+}
+.hr{
+    margin: 3%;
+  height: 4px;
+  background-color: #fff;
+  width: 100%;
+}
+.sub_title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+.text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+   font-weight: 500;
+    color: #fff;
+    margin-top: 1%;
+    margin-left: 15%;
+    
+   
+}
+.sub_container_right{
+    background-color: rgba(41, 57, 58, 0.459);
+    color: grey;
+    border-style: dashed; 
+    border-width: 3px; 
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    margin-left: 72%;
+    margin-top: 30%;
+}
+
+.arrowIcon{
+    float: right;
+    display: flex;
+    margin: 1rem; 
+    width: 1vh;
+}
+
+.title_2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: #fa6980;
+}
+.sub_title_2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    margin: 1rem;
+    color: #fff;
+}
+
+.text_2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    margin : 1.5rem;
+    font-weight: bold;
+    color: rgb(168, 167, 167);
+}
+.nav_slider{
+   margin-top: 40%;
+    width: 15%;
+}
+
