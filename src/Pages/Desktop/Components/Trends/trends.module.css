@@ -33,6 +33,10 @@
     margin-left: 2%;
     margin-bottom: 2%;
     position: relative;
+    border: 2px solid rgba(255, 255, 255, 0);
+    box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.24);
+    -moz-box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.24);
 }
 .img {
     width: 100%;

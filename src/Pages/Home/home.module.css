@@ -95,3 +95,11 @@
     outline: 2px dotted #55d7dc;
    }
    
+
+   @media screen and (max-width: 768px){
+    .draw_border {
+        justify-content: space-around;
+        margin-top: 10%;
+    }
+
+   }
